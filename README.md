@@ -21,7 +21,7 @@ LJ-V7000 シリーズの測定器を接続し, python プログラムで以下�
 
 ２. プログラムを実行する.
 
-```
+```python
 import time
 from keyencelib import Profiler
 
