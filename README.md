@@ -10,14 +10,14 @@ LJ-V7000 シリーズの測定器を接続し, python プログラムで以下�
 ## Demo
 ▼FDM方式3Dプリンターの造形物表面を観察した例
 
-![device](https://user-images.githubusercontent.com/88641432/163707601-110b2804-19ac-419c-a3bf-827d1887606d.png)
-![profile](https://user-images.githubusercontent.com/88641432/163707086-21b5b5b2-2675-40e4-a898-6b603c9ff8ef.gif)
+<img src="https://user-images.githubusercontent.com/88641432/163707718-4045fb65-121a-416b-b63c-976e642626b9.png" height="200">　<img src="https://user-images.githubusercontent.com/88641432/163707086-21b5b5b2-2675-40e4-a898-6b603c9ff8ef.gif" height="200">
 
 
 ## Usage
 １. 機器を下の写真の通りに接続する.
 
 [coming soon...]
+
 
 ２. プログラムを実行する.
 
