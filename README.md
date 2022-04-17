@@ -9,7 +9,7 @@ LJ-V7000 シリーズの測定器を接続し, python プログラムで以下�
 
 ## Demo
 ▼FDM方式3Dプリンターの造形物表面を観察した例
-![device](https://user-images.githubusercontent.com/88641432/163707075-b3b7dead-c918-415b-a302-62402418c24b.png)
+![device](https://user-images.githubusercontent.com/88641432/163707276-3add0962-85dd-495a-9f2d-38b218975c21.png)
 ![profile](https://user-images.githubusercontent.com/88641432/163707086-21b5b5b2-2675-40e4-a898-6b603c9ff8ef.gif)
 
 
