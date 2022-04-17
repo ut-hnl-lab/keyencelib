@@ -1,14 +1,13 @@
-"""Keyence LJV7シリーズによるプロファイル測定プログラム."""
-
 import os.path as osp
 from ctypes import *
 from typing import List
 
 import numpy as np
 
-from .exceptions import DllError, CommunicationError, MeasurementError
+from keyencelib.exceptions import (CommunicationError, DllError,
+                                   MeasurementError)
 
-DLL_PATH = osp.join(osp.dirname(__file__, 'LJV7_IF.dll'))
+DLL_PATH = osp.join(osp.dirname(__file__), 'LJV7_IF.dll')
 
 
 # Define.cs
