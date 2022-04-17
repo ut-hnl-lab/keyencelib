@@ -9,12 +9,15 @@ LJ-V7000 シリーズの測定器を接続し, python プログラムで以下�
 
 ## Demo
 ▼FDM方式3Dプリンターの造形物表面を観察した例
+![device](https://user-images.githubusercontent.com/88641432/163707075-b3b7dead-c918-415b-a302-62402418c24b.png)
+![profile](https://user-images.githubusercontent.com/88641432/163707086-21b5b5b2-2675-40e4-a898-6b603c9ff8ef.gif)
+
 
 ## Usage
 １. 機器を下の写真の通りに接続する.
+[coming soon...]
 
 ２. プログラムを実行する.
-
 ```
 import time
 from keyencelib import Profiler
