@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="KeyenceLib",
+    name="keyencelib",
     version="0.1.0",
     license="MIT",
     description="Measurement package for Keyence laser profilers",
