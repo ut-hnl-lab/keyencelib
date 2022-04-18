@@ -1,1 +1,1 @@
-from keyencelib.profile import ProfileMonitor, Profiler
+from keyencelib.profile import Profiler
