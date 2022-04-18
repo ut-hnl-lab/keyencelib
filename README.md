@@ -16,8 +16,8 @@ LJ-V7000 シリーズの測定器を接続し, python プログラムで以下�
 ## Usage
 １. 機器を下の写真の通りに接続する.
 
-[coming soon...]
 
+<img src="https://user-images.githubusercontent.com/88641432/163779065-156cf1a9-42a7-44a9-acfc-4622e1b00dbe.png" width=600>
 
 ２. プログラムを実行する.
 
@@ -34,7 +34,7 @@ with profiler.open(with_monitor=True):
     print(array)
 ```
 
-## Install
+## Installation
 ```
 pip install keyencelib
 ```
