@@ -107,7 +107,9 @@ class ProfileMonitor:
         self.args = args
         self.kwargs = kwargs
         self._times = deque(maxlen=10)
+        self._lines = None
 
+    @property
     def fps(self) -> float:
         """Calculate frames per second (FPS).
 
@@ -118,13 +120,13 @@ class ProfileMonitor:
         """
         if self._is_monioring:
             delta = np.diff(self._times)
-            return np.mean(len(delta) / delta)
+            return len(delta) / np.mean(delta)
 
     def setup(self) -> None:
         if self.axis is not None:
             ax = self.axis
         else:
-            ax = self.plt.subplot()
+            ax = plt.subplot()
         ax.yaxis.set_major_formatter(ScalarFormatter(useMathText=True))
         ax.ticklabel_format(style="sci", axis="y", scilimits=(0, 0))
         self.axis = ax
@@ -136,7 +138,7 @@ class ProfileMonitor:
 
         if len(vec) > 0:
             vecmean = np.mean(vec)
-            self._ax.set_ylim(
+            self.axis.set_ylim(
                 vecmean-self.ylim_semirange, vecmean+self.ylim_semirange)
-        self._lines, = self._ax.plot(vec, *self.args, **self.kwargs)
+        self._lines, = self.axis.plot(vec, *self.args, **self.kwargs)
         plt.pause(0.001)
