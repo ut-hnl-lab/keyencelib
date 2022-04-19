@@ -25,16 +25,17 @@ LJ-V7000 シリーズの測定器を接続し, python プログラムで以下�
 import time
 from keyencelib import Profiler
 
-profiler = Profiler(savedir='./test')
+profiler = Profiler(savedir='tests')
 
-# 10秒間プロファイルを表示した後, 配列で取得・保存する
-with profiler.open(with_monitor=True):
-    time.sleep(10)
+# プロファイルを配列で取得・保存する
+with profiler.open():
     array = profiler.get()
     print(array)
 ```
 
 ## Installation
 ```
-pip install keyencelib
+git clone https://github.com/ut-hnl-lab/keyencelib.git
+cd keyencelib
+pip install .
 ```
