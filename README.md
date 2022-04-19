@@ -36,6 +36,5 @@ with profiler.open():
 ## Installation
 ```
 git clone https://github.com/ut-hnl-lab/keyencelib.git
-cd keyencelib
-pip install .
+pip install .\keyencelib
 ```
